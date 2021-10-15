@@ -30,9 +30,17 @@
 	width: 100%;
 	height: 100%;
 }
+/* /.container_major */
 
+/* .container_show */
 .container_show {
 	width: 80%;
+}
+/* /.container_show */
+
+/* .side_right */
+.side_right .card {
+	opacity: 0.6;
 }
 
 .side_right {
@@ -72,5 +80,6 @@
 #button_down {
 	bottom: 10%;
 }
-/* /.container_major */
+/* /.side_right */
+
 /* main */
