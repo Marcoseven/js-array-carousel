@@ -37,10 +37,8 @@ const text = [
 ];
 
 // variabili
-const arrow_up = document.getElementById("button_up>i");
-const arrow_down = document.getElementById("button_down>i");
+let arrowUp = document.getElementById("button_up>i");
+let arrowDown = document.getElementById("button_down>i");
 
-// EventListener
-arrow_up.addEventListener("click", function () {});
-
-arrow_down.addEventListener("click", function () {});
+// for
+for (let index = 0; index < array.length; index++) {}
