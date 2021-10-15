@@ -35,3 +35,12 @@ const text = [
 	"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,",
 	"Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,",
 ];
+
+// variabili
+const arrow_up = document.getElementById("button_up>i");
+const arrow_down = document.getElementById("button_down>i");
+
+// EventListener
+arrow_up.addEventListener("click", function () {});
+
+arrow_down.addEventListener("click", function () {});
