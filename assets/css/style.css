@@ -14,7 +14,6 @@
 .flex_column {
 	display: flex;
 	flex-direction: column;
-	height: calc(100% / 5);
 }
 /* /utility */
 
@@ -38,6 +37,40 @@
 
 .side_right {
 	width: 20%;
+}
+
+.row {
+	height: 100%;
+}
+
+.card {
+	height: calc(100% / 5);
+	position: relative;
+}
+
+#button_up,
+#button_down {
+	position: absolute;
+	font-size: 13px;
+	left: 42%;
+}
+
+#button_up,
+#button_down i {
+	filter: invert(1);
+}
+
+#button_up,
+#button_down:hover {
+	cursor: pointer;
+}
+
+#button_up {
+	top: 10%;
+}
+
+#button_down {
+	bottom: 10%;
 }
 /* /.container_major */
 /* main */
